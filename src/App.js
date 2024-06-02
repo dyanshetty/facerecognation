@@ -7,7 +7,7 @@ import Rank from './components/Rank/Rank';
 
 function App() {
   const [input, setInput] = useState("");
-
+//success
   const onInputChange = (event) => {
     console.log(event.target.value);
   };
